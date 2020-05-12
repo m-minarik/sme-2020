@@ -1,0 +1,1100 @@
+{
+ "testA": [
+  {
+   "question": "Mějme sinusový průběh napětí a proudu o frekvenci 50 Hz, Umax=1,414 V, zátěž je ideální induktor s reaktancí 1 Ohm. Činný výkon na zátěži je:",
+   "answers": [
+    "1 W",
+    "0,5 W",
+    "0 W",
+    "1,44 W"
+   ],
+   "correct_answer": "0 W."
+  },
+  {
+   "question": "Celkový činný výkon pro obecný neharmonický signál je možné spočítat diskrétně pomocí Fourierovy transformace a rozkladu na jednotlivé harmonické složky. Celkový činný výkon je pak:",
+   "answers": [
+    "Součtem činných výkonů jednotlivých harm. složek P1+...+Pn a stejnosměrné složky Pdc",
+    "Součtem činných výkonů jednotlivých harm. složek P1,...,Pn",
+    "Součtem kvadrátů činných výkonů jednotlivých harm. složek P1^2+..+Pn^2",
+    "Součtem kvadrátů činných výkonů jednotlivých harm. složek P1^2+..+Pn^2 a stejnosměrné složky Pdc"
+   ],
+   "correct_answer": "Součtem činných výkonů jednotlivých harm. složek P1+...+Pn a stejnosměrné složky Pdc."
+  },
+  {
+   "question": "Mějme sinusový signál U(t)=1,414*sin(2*Pi*50*t). Jak velké je stejnosměrné napětí o stejné efektivní hodnotě?",
+   "answers": [
+    "1 V",
+    "1/1,11 = 0.9 V",
+    "1,414 x odmoc. (2) =2 V",
+    "1.414 V"
+   ],
+   "correct_answer": "1 V."
+  },
+  {
+   "question": "Vyjádření výsledku měření s nejistotou je vhodnější z následujícího důvodu:",
+   "answers": [
+    "Nejistota, narozdíl od chyby, určuje odchylku od správné hodnoty, která by měla být změřena.",
+    "Nejistotou vyjadřujeme interval, ve kterém se výsledek pohybuje s určitou pravděpodobností -ve skutečnosti neznáme \"správnou\" hodnotu měření",
+    "Nejistota měření je vždy větší než chyba měření, proto je výhodnější uvádět nejistotu - máme větší konfideční interval.",
+    "Nejistota měření je nezávislá od počtu opakování měření, což je výhodné pro krátká měření."
+   ],
+   "correct_answer": "Nejistotou vyjadřujeme interval, ve kterém se výsledek pohybuje s určitou pravděpodobností -ve skutečnosti neznáme \"správnou\" hodnotu měření ."
+  },
+  {
+   "question": "V mikrovlnné a kalibrační technice se používá také tepelný převodník efektivní hodnoty. Jeho princip spočívá v:",
+   "answers": [
+    "Měření teploty zátěže, kterou prochází zesílený RF signál, např. termočlánkem. Výstupem je napětí termočlánku.",
+    "RF signál zahřívá zátěž, její teplota je měřena a srovnávána s teplotou referenčního elementu (analogově), ten je vytápěn DC proudem tak, aby rozdíl teplot byl nulový. Pak je výstupem hodnota DC proudu.",
+    "Měření teploty plošky, která je ohřívána indukčním ohřevem zesíleného RF signálu. Výstupem je digitální signál teploměru.",
+    "Kalorimetrii. RF signál ohřeje definovanou hmotu za definovaný čas na definovanou teplotu. Výstup se spočítá z kalorimetrické rovnice."
+   ],
+   "correct_answer": "RF signál zahřívá zátěž, její teplota je měřena a srovnávána s teplotou referenčního elementu (analogově), ten je vytápěn DC proudem tak, aby rozdíl teplot byl nulový. Pak je výstupem hodnota DC proudu.."
+  },
+  {
+   "question": "ideální operační zesilovač",
+   "answers": [
+    "má nulový vstupní odpor, nekonečný výstupní odpor, nekonečné zesílení a do jeho vstupu neteče proud",
+    "má nulový vstupní odpor, nekonečný výstupní odpor, nekonečné zesílení a nulový offset",
+    "má nulový výstupní odpor, nekonečný vstupní odpor, jednotkové zesílení a nulový offset",
+    "má nulový výstupní odpor, nekonečný vstupní odpor, nekonečné zesílení a nulový offset"
+   ],
+   "correct_answer": "má nulový výstupní odpor, nekonečný vstupní odpor, nekonečné zesílení a nulový offset."
+  },
+  {
+   "question": "Převodník s usměrňovačem je možné použít pro měření efektivní hodnoty následujícího signálu:",
+   "answers": [
+    "pouze náhodný signál (bílý šum)",
+    "obdélníkový s nulovu stejnosměrnou složkou",
+    "obdélníkový se střídou 50%",
+    "sinusový"
+   ],
+   "correct_answer": "sinusový."
+  },
+  {
+   "question": "Střední hodnotu dostanu",
+   "answers": [
+    "vydělím-li údaj laciného voltmetru 1,11",
+    "vynásobím-li údaj laciného voltmetru 1,1",
+    "vynásobím-li údaj laciného voltmetru 1,4",
+    "vydělím-li údaj laciného voltmetru 1,4"
+   ],
+   "correct_answer": "vydělím-li údaj laciného voltmetru 1,11 ."
+  },
+  {
+   "question": "Výkon (resp. příkon) s obecnou zátěží NENÍ možné měřit následujícím způsobem:",
+   "answers": [
+    "Vzorkováním U,I a výpočtem z definičního vztahu pro okamžitý výkon",
+    "Analogově pomocí násobičky s Hallovou sondou",
+    "Měřením efektivních hodnot napětí a proudu dvěma přístroji a jejich vynásobením.",
+    "Pomocí modulace amplitudy a střídy signálu v analogové násobičce"
+   ],
+   "correct_answer": "Měřením efektivních hodnot napětí a proudu dvěma přístroji a jejich vynásobením.."
+  },
+  {
+   "question": "Pro změnu rozsahů při stejnosměrném měření proudu a napětí se používá:",
+   "answers": [
+    "Zařazením odporových děličů a bočníků",
+    "Přepínáním referenčního napětí Uref A-D převodníku.",
+    "Zařazování transformátorů proudu a napětí",
+    "Přepínáním zesilovače s proměnným zesílením před A-D převodníkem."
+   ],
+   "correct_answer": "Zařazením odporových děličů a bočníků."
+  },
+  {
+   "question": "magnetoelektrický voltmetr",
+   "answers": [
+    "Měřený proud prochází cívkou, která se otáčí ve stejnosměrném magnetickém poli. Pomocí pružinky se měří síla působící na proud.",
+    "Měřené napětí je přivedeno na cívku, která vytváří magnetické pole působící na pohyblivou cívku, do které se přivede měřený proud.",
+    "Měřený proud prochází dvěma cívkami , které se vzájemně přitahují.",
+    "Měřený proud prochází pevnou cívkou, ve které se otáčí feromagnetické tělísko"
+   ],
+   "correct_answer": "Měřený proud prochází cívkou, která se otáčí ve stejnosměrném magnetickém poli. Pomocí pružinky se měří síla působící na proud. ."
+  },
+  {
+   "question": "který převodník se používá v přesných voltmetrech (6.5 a více míst)?",
+   "answers": [
+    "flash",
+    "s postupnou aproximací",
+    "integrační",
+    "delta-sigma"
+   ],
+   "correct_answer": "integrační."
+  },
+  {
+   "question": "Převodník s dvojsklonnou integrací",
+   "answers": [
+    "referenční napětí se zvyšuje tak dlouho, dokud nedosáhne hodnoty měřeného napětí, což vyhodnocuje komparátor.",
+    "doba T1 je konstantní, doba T2 je proměnná, měřené napětí je úměrné poměru těchto dvou dob",
+    "doba T1 je konstantní, doba T2 je proměnná, měřené napětí je úměrné rozdílu těchto dvou dob",
+    "doba T1 je proměnná, měřené napětí je úměrné této době. Během doby T2 dochází k nulování integrátoru."
+   ],
+   "correct_answer": "doba T1 je konstantní, doba T2 je proměnná, měřené napětí je úměrné poměru těchto dvou dob."
+  },
+  {
+   "question": "Jaké je rozlišení 8-bitového A-D převodníku s rozsahem +-10V?",
+   "answers": [
+    "78 mV",
+    "256 mV",
+    "156 mV",
+    "39 mV"
+   ],
+   "correct_answer": "78 mV."
+  },
+  {
+   "question": "Při nesouměrné (obecné) třífázové zátěži, kdy jsou v jednotlivých větvích zařazeny wattmetry (elektronické či analogové) měřicí činný výkon PU,PV a PW, je celkový činný výkon zátěže roven:",
+   "answers": [
+    "1/3 * sqrt(PU^2 + PV^2 + PW^2)",
+    "sqrt (PU^2 + PV^2 + PW^2)",
+    "1/3 * (PU + PV + PW)",
+    "PU + PV + PW"
+   ],
+   "correct_answer": "PU + PV + PW."
+  },
+  {
+   "question": "čítač",
+   "answers": [
+    "Pro nízké kmitočty je výhodnější měřit dobu periody než frekvenci. Rozlišení můžeme zvýšit měřením více period a průměrováním.",
+    "Pro vysoké kmitočty je výhodnější měřit dobu periody než frekvenci. Rozlišení můžeme zvýšit měřením většího počtu period a průměrováním.",
+    "Pro nízké kmitočty je výhodnější měřit frekvenci než dobu periody Rozlišení můžeme zvýšit zvýšením hodinového kmitočtu.",
+    "Pro vysoké kmitočty je výhodnější měřit dobu periody než frekvenci. Rozlišení můžeme zvýšit zvýšením doby měření."
+   ],
+   "correct_answer": "Pro nízké kmitočty je výhodnější měřit dobu periody než frekvenci. Rozlišení můžeme zvýšit měřením více period a průměrováním.."
+  },
+  {
+   "question": "v kolika krocích je proveden převod 8-bitového převodníku s postupnou aproximací?",
+   "answers": [
+    "256",
+    "8",
+    "255",
+    "7"
+   ],
+   "correct_answer": "8."
+  },
+  {
+   "question": "Efektivní hodnotu napětí neharmonického signálu (např. při regulaci výkonu triakovým regulátorem) NELZE změřit:",
+   "answers": [
+    "Číslicovým měřním, tj. diskretizací a následným výpočtem",
+    "Voltmetrem s implicitním převodníkem ef. hodnoty",
+    "Voltmetrem s funkcí \"True RMS\"",
+    "Voltmetrem měřicím střední hodnotu s přepočtem 1,11"
+   ],
+   "correct_answer": "Voltmetrem měřicím střední hodnotu s přepočtem 1,11."
+  },
+  {
+   "question": "Kolik komparátorů potřebuje 8-bitový flash převodník?",
+   "answers": [
+    "16",
+    "8",
+    "255",
+    "256"
+   ],
+   "correct_answer": "255."
+  },
+  {
+   "question": "Multiplikativní chyba měření je způsobena:",
+   "answers": [
+    "Chybou referenčního napětí AD převodníku, projeví se jako změna sklonu charakteristiky.",
+    "Dlouhou dobou převodu AD převodníku, ta je větší při měření rychlých signálu.",
+    "Posunem charakteristiky AD převodníku, tzv. offsetem.",
+    "Nelinearitou (INL) AD převodníku, projeví se jako \"schody\" v charakteristice."
+   ],
+   "correct_answer": "Chybou referenčního napětí AD převodníku, projeví se jako změna sklonu charakteristiky.."
+  },
+  {
+   "question": "Pro typický digitální multimetr v režimu ampérmetru a voltmetru platí:",
+   "answers": [
+    "Vstupní odpor voltmetru je > 1 MOhm.",
+    "Vstupní odpor voltmetru je << 10 Ohm",
+    "Vstupní odpor voltmetru je cca 100-1000 Ohm",
+    "Odpor ampérmetru je 100-1000 Ohm"
+   ],
+   "correct_answer": "Vstupní odpor voltmetru je > 1 MOhm.."
+  },
+  {
+   "question": "Jak multimetr měří stř. napětí:",
+   "answers": [
+    "Levné multimetry používají neřízené usměrňovače, dražší true rms převodníky",
+    "Levné multimetry používají řízené usměrňovače, dražší true rms převodníky",
+    "Levné multimetry používají neřízené usměrňovače, dražší true rms převodníky nebo řízené usměrňovače",
+    "Levné multimetry používají neřízené usměrňovače, dražší true rms převodníky nebo řízené usměrňovače"
+   ],
+   "correct_answer": "Levné multimetry používají neřízené usměrňovače, dražší true rms převodníky."
+  },
+  {
+   "question": "Aliasing:",
+   "answers": [
+    "Dochází k němu, když vstupní signál převodníku obsahuje složku s kmitočtem vyšším, než je dvojnásobek vzorkovacího kmitočtu. Dá se mu zabránit použitím antialisingového filtru typu horní propust.",
+    "Dochází k němu, když vstupní signál převodníku obsahuje složku s kmitočtem vyšším, než je vzorkovací kmitočet. Dá se mu zabránit použitím antialisingového filtru typu dolní propust.",
+    "Dochází k němu, když vstupní signál převodníku obsahuje složku s kmitočtem vyšším, než je polovina vzorkovacího kmitočtu. Dá se mu zabránit použitím antialisingového filtru typu dolní propust."
+   ],
+   "correct_answer": "Dochází k němu, když vstupní signál převodníku obsahuje složku s kmitočtem vyšším, než je polovina vzorkovacího kmitočtu. Dá se mu zabránit použitím antialisingového filtru typu dolní propust. ."
+  },
+  {
+   "question": "který převodník se používá v osciloskopech?",
+   "answers": [
+    "flash",
+    "se dvojsklonnou nebo vícesklonnou integrací",
+    "delta-sigma",
+    "s postupnou aproximací"
+   ],
+   "correct_answer": "flash."
+  },
+  {
+   "question": "které dva typy převodníků mohou potlačovat seriové rušení?",
+   "answers": [
+    "s postupnou aproximací a flash",
+    "integrační a s postupnou aproximací",
+    "integrační a flash",
+    "integrační a delta-sigma"
+   ],
+   "correct_answer": "integrační a delta-sigma."
+  },
+  {
+   "question": "Voltmetr s A-D převodníkem měří 1V a chyba měření je udána výrobcem jako maximálně +- 100mV. Interval možných hodnot je tak 0.9 až 1.1V. Standardní nejistota měření se pak vyjádří jako:",
+   "answers": [
+    "100mV/odmoc.(2), protože předpokládáme rovnoměrné rozložení pravděpodobnosti v intervalu hodnot",
+    "100mV, protože předpokládáme rovnoměrné rozložení pravděpodobnosti v intervalu hodnot",
+    "100mV/odmoc.(3) protože předpokládáme normální rozložení pravděpodobnosti v intervalu hodnot",
+    "100mV/odmoc.(3) protože předpokládáme rovnoměrné rozložení pravděpodobnosti v intervalu hodnot"
+   ],
+   "correct_answer": "100mV/odmoc.(3) protože předpokládáme rovnoměrné rozložení pravděpodobnosti v intervalu hodnot."
+  },
+  {
+   "question": "Pro měření spotřeby elektronickým elektroměrem NEPLATÍ:",
+   "answers": [
+    "Proud je snímán jako úbytek napětí na snímacím rezistoru",
+    "Proud prochází proudovými cívkami a napětí je připojeno na napěťovou cívku",
+    "Proud je měřen pomocí měřicího transformátoru proudu",
+    "Napětí je měřeno na (kompenzovaném) děliči"
+   ],
+   "correct_answer": "Proud prochází proudovými cívkami a napětí je připojeno na napěťovou cívku."
+  },
+  {
+   "question": "který převodník se používá v softwarovém radiu?",
+   "answers": [
+    "delta-sigma",
+    "flash",
+    "integrační",
+    "s postupnou aproximací"
+   ],
+   "correct_answer": "flash."
+  },
+  {
+   "question": "který ADC potřebuje vzorkovač?",
+   "answers": [
+    "s dvojsklonnou integrací",
+    "delta-sigma",
+    "flash",
+    "s postupnou aproximací"
+   ],
+   "correct_answer": "s postupnou aproximací."
+  }
+ ],
+ "testB": [
+  {
+   "question": "Ampérův zákon je využitelný pro bezkontaktní elektrická měření. Platí:",
+   "answers": [
+    "Derivace intenzity magnetického pole po uzavřené křivce je rovna sumě proudů danou křivkou protékajících",
+    "Integrál intenzity magnetického pole po uzavřené křivce je roven sumě proudů vstupujících do plochy uzavřené touto křivkou",
+    "Integrál intenzity magnetického pole v uzavřené ploše je roven sumě nábojů v dané ploše obsažených",
+    "Derivace intenzity magnetického pole v uzavřené ploše je rovna sumě nábojů v dané ploše obsažených"
+   ],
+   "correct_answer": "Integrál intenzity magnetického pole po uzavřené křivce je roven sumě proudů vstupujících do plochy uzavřené touto křivkou"
+  },
+  {
+   "question": "AMR magnetorezistor",
+   "answers": [
+    "se nedá použít jako kompas protože je málo citlivý",
+    "měří jen stejnosměrné magnetické pole",
+    "jednotlivé magnetorezistory se často zapojují do Wheatstoneova můstku",
+    "je tvořen polovodičovým materiálem s nanesenými měděnými vrstvami kde dochází k AMR efektu"
+   ],
+   "correct_answer": "jednotlivé magnetorezistory se často zapojují do Wheatstoneova můstku"
+  },
+  {
+   "question": "Čtyřsvorkové měření odporu umožní potlačit:",
+   "answers": [
+    "rušivá napětí indukovaná na přívodech k snímači",
+    "teplotní závislost odporového snímače",
+    "termoelektrická napětí na spojích z různých materiálů",
+    "odpor přívodů k odporovému snímači"
+   ],
+   "correct_answer": "odpor přívodů k odporovému snímači"
+  },
+  {
+   "question": "Eliminace vlivu termoelektrických napětí a offsetů vstupních zesilovačů se dá u odporových senzorů zajistit:",
+   "answers": [
+    "přidáním opačně polarizovaného rezistoru do série se vstupním zesilovačem",
+    "komutací napájecího napětí nebo proudu",
+    "zapojením do můstku",
+    "použitím termočlánkového materiálu pro přívodní vodiče"
+   ],
+   "correct_answer": "komutací napájecího napětí nebo proudu"
+  },
+  {
+   "question": "Faradayův indukční zákon se využívá v senzorech. Platí:",
+   "answers": [
+    "indukovaný proud je rovný zápornému integrálu toku podle času",
+    "indukované napětí je rovné zápornému integrálu toku podle času",
+    "indukované napětí je rovné záporné derivaci toku podle času",
+    "indukovaný proud je rovný záporné derivaci toku podle času"
+   ],
+   "correct_answer": "indukované napětí je rovné záporné derivaci toku podle času"
+  },
+  {
+   "question": "Hallova sonda - její funkce se dá snadno vysvětlit",
+   "answers": [
+    "pomocí Lorentzovy síly",
+    "pomocí Ohmova zákona",
+    "pomocí Faradayova indukčního zákona",
+    "pomocí magnetizace dielektrika"
+   ],
+   "correct_answer": "pomocí Lorentzovy síly"
+  },
+  {
+   "question": "Hloubka vniku el.mag. vlny do materiálu NEZÁLEŽÍ na jedné z následujících veličin",
+   "answers": [
+    "Frekvence el.mag. pole",
+    "Měrný odpor",
+    "Relativní permeabilita",
+    "Relativní permitivita"
+   ],
+   "correct_answer": "Relativní permitivita"
+  },
+  {
+   "question": "Indukčnostní senzory na principu vířivých proudů mohou být použity k diagnostice materiálů:",
+   "answers": [
+    "pouze elektricky vodivých",
+    "pouze feromagneticých",
+    "pouze diamagnetických a paramagnetických",
+    "pouze nevodivých"
+   ],
+   "correct_answer": "pouze elektricky vodivých"
+  },
+  {
+   "question": "Indukčnostní senzory, pracující na principu vířivých proudů, se obvykle NEPOUŽÍVAJÍ pro:",
+   "answers": [
+    "Detekci osob v chráněném prostoru",
+    "Detekci trhlin v materiálu.",
+    "Měření tloušťky galvanických povlaků",
+    "Detekci koncových poloh pohyblivých částí strojů"
+   ],
+   "correct_answer": "Detekci osob v chráněném prostoru"
+  },
+  {
+   "question": "Integrační zesilovač s operačním zesilovačem se skládá z",
+   "answers": [
+    "z operačního zesilovače, odporu a PIN diody",
+    "z operačního zesilovače, rezistoru a kondenzátoru",
+    "z operačního zesilovače, tranzistoru a kondenzátoru",
+    "z operačního zesilovače a dvou kondenzátorů"
+   ],
+   "correct_answer": "z operačního zesilovače, rezistoru a kondenzátoru"
+  },
+  {
+   "question": "Jaká je přibližně velikost vektoru magnetického pole Země v Praze",
+   "answers": [
+    "20 nT",
+    "49 uT",
+    "410 mT",
+    "5.2 mT"
+   ],
+   "correct_answer": "49 uT"
+  },
+  {
+   "question": "Kapacita deskového senzoru polohy s proměnnou vzdáleností elektrod závisí na této vzdálenosti:",
+   "answers": [
+    "lineárně",
+    "exponenciálně",
+    "nepřímo úměrně",
+    "logaritmicky"
+   ],
+   "correct_answer": "nepřímo úměrně"
+  },
+  {
+   "question": "Který senzor magnetického pole měří jen střídavé pole?",
+   "answers": [
+    "Magnetorezistor",
+    "Hallova sonda",
+    "Indukční cívka",
+    "Fluxgate senzor"
+   ],
+   "correct_answer": "Indukční cívka"
+  },
+  {
+   "question": "Měření malých odporů (řádově jednotky m-Ohm) NELZE realizovat:",
+   "answers": [
+    "Měřením odporu dvousvorkovým multimetrem",
+    "Poměrovou metodou (stejný proud teče referenčním a neznámým rezistorem)",
+    "Čtyřsvorkovou metodou pomocí stolního multimetru",
+    "Měřením odporu se samostatným voltmetrem a ampérmetrem"
+   ],
+   "correct_answer": "Měřením odporu dvousvorkovým multimetrem"
+  },
+  {
+   "question": "Mezi galvanicky oddělené senzory proudu NEPATŘÍ",
+   "answers": [
+    "pasivní bočník - snímací rezistor",
+    "senzor s magnetickým obvodem a Hall senzorem",
+    "proudový transformátor",
+    "senzor s magnetickým obvodem a fluxgate"
+   ],
+   "correct_answer": "pasivní bočník - snímací rezistor"
+  },
+  {
+   "question": "Mezi vektorové senzory magnetického pole NEPATŘÍ:",
+   "answers": [
+    "Fluxgate",
+    "Anizotropní magnetorezistory",
+    "Hallova sonda",
+    "Senzory na principu nukleární magnetické rezonance"
+   ],
+   "correct_answer": "Senzory na principu nukleární magnetické rezonance"
+  },
+  {
+   "question": "Odporové snímače polohy se používají v zapojení jako potenciometr, nikoli jako reostat. Hlavním důvodem k tomu je:",
+   "answers": [
+    "potlačení vlivu odskakování jezdce",
+    "potlačení vlivu změn odporu přívodů",
+    "potlačení vlivu změn rezistivity odporové dráhy",
+    "potlačení vlivu přechodového odporu mezi jezdcem a dráhou"
+   ],
+   "correct_answer": "potlačení vlivu změn rezistivity odporové dráhy"
+  },
+  {
+   "question": "Odporový senzor s Ro=100 Ohm v klidovém stavu je zapojen v jedné větvi Wheatstonova můstku. Ostatní tři rezistory jsou pevné s hodnotou 100 Ohm. Označte pravdivou odpověď:",
+   "answers": [
+    "V klidovém stavu je výstupní napětí můstku 0 V.",
+    "Výstupní napětí můstku je nezávislé na změně odporu snímače.",
+    "V klidovém stavu je výstupní napětí můstku závislé na napájecím napětí můstku.",
+    "Výstupní napětí můstku nezávisí na odporu přívodů k senzoru."
+   ],
+   "correct_answer": "V klidovém stavu je výstupní napětí můstku 0 V."
+  },
+  {
+   "question": "Odporový senzor teploty PT100 je vyroben",
+   "answers": [
+    "z niklu a při 0 stupních Celsia má odpor 100 Ohm",
+    "z platiny a při 25 stupních Celsia má odpor 100 Ohm",
+    "z platiny a při 0 stupních Celsia má odpor 100 Ohm",
+    "z niklu a při 25 stupních Celsia má odpor 100 Ohm"
+   ],
+   "correct_answer": "z platiny a při 0 stupních Celsia má odpor 100 Ohm"
+  },
+  {
+   "question": "Odporový snímač polohy v potenciometrickém zapojení má lineární převodní charakteristiku",
+   "answers": [
+    "pro lineární průběh odporu dráhy pouze při nezatíženém výstupu",
+    "při napájení ze zdroje napětí a to i při zatíženém výstupu",
+    "pro lineární průběh odporu dráhy i při zatíženém výstupu",
+    "při napájení ze zdroje proudu a to i při zatíženém výstupu"
+   ],
+   "correct_answer": "pro lineární průběh odporu dráhy pouze při nezatíženém výstupu"
+  },
+  {
+   "question": "Platinové odporové teploměry (např. PT100) mají oproti termočlánkům následující výhodu při měření teploty:",
+   "answers": [
+    "Definovanou charakteristiku, linearitu a velkou opakovatelnost",
+    "Nezávislost na napájecím napětí - senzor není třeba napájet",
+    "Malý vnitřní odpor (řádově jednotky Ohm) což je vhodné pro měření napětí",
+    "Velký teplotní rozsah (až 2000 st. C) díky málo oxidujícím materiálům"
+   ],
+   "correct_answer": "??? Definovanou charakteristiku, linearitu a velkou opakovatelnost ???"
+  },
+  {
+   "question": "Převodní konstanta kovového termočlánku (změna napětí při změně teploty o 1K) je typicky:",
+   "answers": [
+    "40 mV",
+    "40 uV",
+    "1 uV",
+    "1 mV"
+   ],
+   "correct_answer": "40 uV"
+  },
+  {
+   "question": "Principem fluxgate senzoru je:",
+   "answers": [
+    "modulace permitivity",
+    "modulace vnějšího pole, např. otáčením v magnetickém poli",
+    "modulace permeability",
+    "restrikce konduktivity"
+   ],
+   "correct_answer": "modulace permeability"
+  },
+  {
+   "question": "Pro převodník R/U s operačním zesilovačem platí",
+   "answers": [
+    "pokud zapojíme měřený prvek do zpětné vazby nebude napájen konstantním proudem",
+    "operační zesilovač nepotřebuje v tomto případě napájení, vystačí se se zdrojem vstupního referenčního napětí",
+    "výstupní odpor zapojení je ideálně nulový",
+    "zapojení půjde beze změny hodnot (referenčního napětí nebo normálového rezistoru) použít pro extrémní rozsah odporu (1 uOhm až 1 GOhm)"
+   ],
+   "correct_answer": "výstupní odpor zapojení je ideálně nulový"
+  },
+  {
+   "question": "Pro snímač LVDT platí",
+   "answers": [
+    "jedná se o senzor s pevným magnetickým obvodem kde dochází ke změně permeability jádra",
+    "pro určení směru výchylky je třeba znát fázi výstupního napětí nebo použít raciometrické vyhodnocení",
+    "je založen na principu vířivých proudů",
+    "vyžaduje permanentní magnet"
+   ],
+   "correct_answer": "pro určení směru výchylky je třeba znát fázi výstupního napětí nebo použít raciometrické vyhodnocení"
+  },
+  {
+   "question": "Pro temistory PTC a NTC platí:",
+   "answers": [
+    "Termistory (PTC i NTC) nejsou vhodné pro měření záporných teplot (pod O°C).",
+    "Závislost na teplotě temistoru NTC je v širokém rozmezí teplot exponenciální.",
+    "Termistory NTC a PTC mají lineární odezvu v širokém rozmezí teplot.",
+    "NTC má mnohem větší teplotní koeficient než PTC, proto se používá pro měření teploty."
+   ],
+   "correct_answer": "Závislost na teplotě temistoru NTC je v širokém rozmezí teplot exponenciální."
+  },
+  {
+   "question": "Proudový transformátor",
+   "answers": [
+    "nejčastěji se používá pro měření proudu ve stejnosměrné rozvodné síti",
+    "ideálním režimem činnosti je výstup (sekundár) naprázdno",
+    "snažíme se o minimální impedanci proudového senzoru v sekundáru",
+    "typicky velmi ovlivňuje měřený obvod"
+   ],
+   "correct_answer": "snažíme se o minimální impedanci proudového senzoru v sekundáru"
+  },
+  {
+   "question": "Pro zpětnovazební proudový senzor platí",
+   "answers": [
+    "nepracuje na principu Ampérova zákona celkového proudu",
+    "senzor magnetického pole v ustáleném stavu ideálně měří nulové pole",
+    "výstupní veličinou je odpor magnetického obvodu",
+    "je cenově velmi výhodný protože nepotřebuje žádný senzor magnetického pole"
+   ],
+   "correct_answer": "senzor magnetického pole v ustáleném stavu ideálně měří nulové pole"
+  },
+  {
+   "question": "Součinitel deformační citlivosti je u tenzometrů definován jako",
+   "answers": [
+    "poměr relativní změny odporu při deformaci a teploty",
+    "poměr odporu a délky tenzometru ve stavu bez zatížení",
+    "výstupní napětí vzhledem k působící deformaci",
+    "poměr relativní změny odporu k relativní změně délky"
+   ],
+   "correct_answer": "poměr relativní změny odporu k relativní změně délky"
+  },
+  {
+   "question": "Vhodným uspořádáním čtyř tenzometrů do tenzometrického můstku se dociluje",
+   "answers": [
+    "potlačení vlivu mechanického napětí",
+    "potlačení vlivu rušivých elektrických signálů a termoelektrických napětí",
+    "potlačení vlivu teploty",
+    "potlačení vlivu odporu přívodů"
+   ],
+   "correct_answer": "potlačení vlivu teploty"
+  }
+ ],
+ "testC": [
+  {
+   "question": "Pro akcelerometr s elektromechanickou zpětnou vazbou NEPLAÍ",
+   "answers": [
+    "používají se pro měření sklonu vrtů",
+    "Měří jen proměnné zrychlení",
+    "Vynikající linearita je dosažena použitím zpětné vazby",
+    "používají se pro navigaci letadel"
+   ],
+   "correct_answer": "Měří jen proměnné zrychlení."
+  },
+  {
+   "question": "Odporové snímače se čtyřvodičovým připojením se často napájejí ze zdroje proudu. Hlavním důvodem k tomu je:",
+   "answers": [
+    "potlačení vlivu termonapětí",
+    "potlačení vlivu změn odporu přívodů",
+    "potlačení vlivu změn rezistivity dráhy",
+    "potlačení vlivu přechodového odporu mezi jezdcem a dráhou"
+   ],
+   "correct_answer": "potlačení vlivu změn odporu přívodů."
+  },
+  {
+   "question": "korelační princip měření rychlosti",
+   "answers": [
+    "Využívá signál z pohyblivého senzoru, odhad rychlosti je určen maximem autokorelační funkce",
+    "Využívá signál z pohyblivého senzoru, odhad rychlosti je určen minimem autokorelační funkce",
+    "Využívá signál z pohyblivého a pevného senzoru, rychlost je úměrná korelační funkci těchto dvou signálů",
+    "Využívá signál ze dvou nepohyblivých senzorů se známou vzdáleností, vyhodnocuje se časový posun naměřených signálů, pro který nastává maximum korelační funkce"
+   ],
+   "correct_answer": "Využívá signál ze dvou nepohyblivých senzorů se známou vzdáleností, vyhodnocuje se časový posun naměřených signálů, pro který nastává maximum korelační funkce ."
+  },
+  {
+   "question": "Polovodičové PN senzory teploty",
+   "answers": [
+    "Jsou založeny na teplotní závislosti napětí na PN přechodu v propustném směru, napájeného zdrojem proudu , který je mnohem větší než saturační proud v závěrném směru.",
+    "Jsou založeny na teplotní závislosti saturačního proudu PN přechodu v propustném směru",
+    "Jsou založeny na teplotní závislosti proudu PN přechodem v propustném směru při napájení konstantním napětím",
+    "Jsou založeny na teplotní závislosti saturačního proudu PN přechodu v závěrném směru"
+   ],
+   "correct_answer": "Jsou založeny na teplotní závislosti napětí na PN přechodu v propustném směru, napájeného zdrojem proudu , který je mnohem větší než saturační proud v závěrném směru. ."
+  },
+  {
+   "question": "Které dva akcelerometry jsou schopny měřit i statické zrychlení?",
+   "answers": [
+    "mikromechanický kapacitní a zpětnovazební elektromagnetický",
+    "mikromechanický kapacitní a elektrodynamický",
+    "elektrodynamický a piezoelektrický",
+    "mikromechanický kapacitní a piezoelektrický"
+   ],
+   "correct_answer": "mikromechanický kapacitní a zpětnovazební elektromagnetický."
+  },
+  {
+   "question": "Výstupní napětí tachogenerátoru NENÍ úměrné",
+   "answers": [
+    "ploše cívky a magnetické indukci",
+    "úhlové rychlosti",
+    "úhlovému zrychlení",
+    "počtu závitů"
+   ],
+   "correct_answer": "úhlovému zrychlení."
+  },
+  {
+   "question": "Nejméně lineární z kontaktních teploměrů je",
+   "answers": [
+    "kovový odporový teploměr",
+    "termočlánek",
+    "PN polovodičový teploměr",
+    "NTC termistor"
+   ],
+   "correct_answer": "NTC termistor."
+  },
+  {
+   "question": "Triangulační senzor vzdálenosti se vyznačuje:",
+   "answers": [
+    "Výstupní údaj o vzdálenosti je přímo závislý na odrazivosti povrchu cílového materiálu",
+    "vzdálenost počítá na základě údajů ze tří fotodiod umístněných ve vrcholech rovnostranného trojúhelníku",
+    "Může použít techniku modulace signálu pro odstranění vlivu světelného rušení",
+    "Nemuže pro svou funkci použít infračervené záření, protože většina objektů ho velmi špatně odráží"
+   ],
+   "correct_answer": "Může použít techniku modulace signálu pro odstranění vlivu světelného rušení ."
+  },
+  {
+   "question": "Která věta NEPLATÍ?",
+   "answers": [
+    "laserový vibrometr je relativním senzorem vibrací",
+    "absolutní senzor vibrací měří vzdálenost mezi kmitajícím objektem a referenčním bodem mimo senzor",
+    "absolutní senzor vibrací nepotřebuje vnější vztažný bod, nahrazuje ho setrvačnou hmotností uvnitř senzru",
+    "mezi absolutní senzory vibrací patří geofony a piezoelektrické čí kapacitní akcelerometry"
+   ],
+   "correct_answer": "absolutní senzor vibrací měří vzdálenost mezi kmitajícím objektem a referenčním bodem mimo senzor."
+  },
+  {
+   "question": "Optoelektronické senzory polohy s prostorovým kódem používají kódování pomocí Grayova kódu. Jaká je hlavní výhoda tohoto uspořádání?",
+   "answers": [
+    "Rychlejší dekodování",
+    "Hazard způsobuje jen malou chybu v určení absolutní polohy",
+    "Grayův kód umožňuje čtení i jinými způsoby, než jen opticky",
+    "Toto uspořádání je levnější než optický inkrementální snímač polohy"
+   ],
+   "correct_answer": "Hazard způsobuje jen malou chybu v určení absolutní polohy."
+  },
+  {
+   "question": "integrovaný polovodičový senzor teploty",
+   "answers": [
+    "Závislost výstupního napětí na teplotě je exponenciální",
+    "Závislost výstupního napětí na teplotě je logaritmická",
+    "závislost výstupního proudu nebo napětí na teplotě je lineární díky použítí teplotní závislosti diody v závěrném směru",
+    "závislost výstupního proudu nebo napětí na teplotě je lineární díky rozdílovému zapojení dvou tranzistorů s odlišnou plochou emitorového přechodu"
+   ],
+   "correct_answer": "závislost výstupního proudu nebo napětí na teplotě je lineární díky rozdílovému zapojení dvou tranzistorů s odlišnou plochou emitorového přechodu."
+  },
+  {
+   "question": "Aby senzor vibrací pracoval v režimu akcelerometru",
+   "answers": [
+    "kmitočet vibrací musí být výrazně pod mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla velká a zavěšena na pružném členu s vysokou tuhostí",
+    "kmitočet vibrací musí být výrazně pod mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s nízkou tuhostí",
+    "kmitočet vibrací musí být výrazně pod mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s vysokou tuhostí",
+    "kmitočet vibrací musí být výrazně nad mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s vysokou tuhostí"
+   ],
+   "correct_answer": "kmitočet vibrací musí být výrazně pod mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s vysokou tuhostí."
+  },
+  {
+   "question": "Coriolisova síla",
+   "answers": [
+    "závisí na hmotnosti, úhlové rychlosti a posuvné rychlosti tělesa",
+    "závisí na magnetickém poli a permeabilitě tělíska",
+    "závisí na hustotě a úhlové rychlosti tělesa",
+    "závisí na lineárním zrychlení a permeabilitě tělesa"
+   ],
+   "correct_answer": "závisí na hmotnosti, úhlové rychlosti a posuvné rychlosti tělesa."
+  },
+  {
+   "question": "Impulsní senzory úhlové rychlosti: který výrok je pro ně NEPRAVDIVÝ?",
+   "answers": [
+    "Mohou využívat magnetické značky na hřídeli",
+    "Mohou být založeny na principu vířivých proudů",
+    "Mohou být založeny na Dopplerově efektu",
+    "Mohou využívat optický princip"
+   ],
+   "correct_answer": "Mohou být založeny na Dopplerově efektu."
+  },
+  {
+   "question": "Aby senzor vibrací pracoval v režimu měření amplitudy",
+   "answers": [
+    "kmitočet vibrací musí být výrazně pod mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla velká a zavěšena na pružném členu s vysokou tuhostí",
+    "kmitočet vibrací musí být výrazně nad mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla velká a zavěšena na pružném členu s nízkou tuhostí",
+    "kmitočet vibrací musí být výrazně nad mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s vysokou tuhostí",
+    "kmitočet vibrací musí být výrazně nad mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla malá a zavěšena na pružném členu s vysokou tuhostí"
+   ],
+   "correct_answer": "kmitočet vibrací musí být výrazně nad mechanickým rezonančním kmitočtem senzoru: k tomu je třeba, aby seismická hmotnost byla velká a zavěšena na pružném členu s nízkou tuhostí."
+  },
+  {
+   "question": "Měronosnou veličinou UVNITŘ STRUKTURY optického snímače typu CCD je",
+   "answers": [
+    "elektrický odpor",
+    "elektrický náboj",
+    "frekvence",
+    "kapacita"
+   ],
+   "correct_answer": "elektrický náboj."
+  },
+  {
+   "question": "Pro měření teploty v pokojovém termostatu je nejvhodnější:",
+   "answers": [
+    "Termočlánek, protože má nejširší rozsah měřené teploty",
+    "Úhrnný radiační pyrometr, díky své nízké ceně",
+    "NTC senzor, nebo senzor s PN přechodem díky nízké ceně a snadnému zpracování signálu",
+    "PTC senzor, díky své lineární charakteristice"
+   ],
+   "correct_answer": "NTC senzor, nebo senzor s PN přechodem díky nízké ceně a snadnému zpracování signálu."
+  },
+  {
+   "question": "Jakým způsobem zvýšíte rozlišovací schopnost inkrementálního optického senzoru polohy?",
+   "answers": [
+    "použitím synchronního detektoru",
+    "použitím modulovaného světelného toku",
+    "interpolací signálu optických detektorů",
+    "zvýšením optického výkonu diody"
+   ],
+   "correct_answer": "interpolací signálu optických detektorů."
+  },
+  {
+   "question": "pro Mikromechanický kapacitní akcelerometr NEPLATÍ",
+   "answers": [
+    "obsahuje převodník kapacita/napětí",
+    "Měří jen proměnné zrychlení",
+    "je založen na setrvačné síle",
+    "základem je destička z polykrystalického křemíku"
+   ],
+   "correct_answer": "Měří jen proměnné zrychlení."
+  },
+  {
+   "question": "Podstatou polohově citlivého optického senzoru (PSD) je",
+   "answers": [
+    "velkoplošná Gunnova dioda",
+    "velkoplošná Zenerova dioda",
+    "velkoplošná Schottkyho dioda",
+    "velkoplošná PIN dioda"
+   ],
+   "correct_answer": "velkoplošná PIN dioda."
+  },
+  {
+   "question": "který z uvedených principů senzoru polohy umožňuje dosáhnout nejvyššího rozlišení?",
+   "answers": [
+    "kapacitní",
+    "PSD optický",
+    "LVDT",
+    "inkrementální optický"
+   ],
+   "correct_answer": "kapacitní."
+  },
+  {
+   "question": "Jakým způsobem rozeznáte směr pohybu inkrementálního optického senzoru polohy",
+   "answers": [
+    "Spádová hrana indikuje pohyb vpravo a vzestupná znamená pohyb vlevo",
+    "Spádová hrana indikuje pohyb vlevo a vzestupná znamená pohyb vpravo",
+    "Nelze rozpoznat",
+    "Přidáním další stopy či dalšího senzoru s geometrickým posunem výstupního signálu o 90°"
+   ],
+   "correct_answer": "Přidáním další stopy či dalšího senzoru s geometrickým posunem výstupního signálu o 90°."
+  },
+  {
+   "question": "Základním elementem CCD snímače je",
+   "answers": [
+    "memristor",
+    "kapacitor realizovaný technologií MOS",
+    "resistor realizovaný technologií MOS",
+    "tranzistor realizovaný technologií MOS"
+   ],
+   "correct_answer": "kapacitor realizovaný technologií MOS."
+  },
+  {
+   "question": "Který z následujících optických senzorů má největší rozlišení?",
+   "answers": [
+    "Inkrementální senzor",
+    "Senzor založený na interferometrickém principu",
+    "CCD senzor",
+    "PSD senzor"
+   ],
+   "correct_answer": "Senzor založený na interferometrickém principu."
+  },
+  {
+   "question": "Citivost diodového teploměru je cca",
+   "answers": [
+    "2 až 2,3 mV/K a závisí na hodnotě měřícího proudu",
+    "-2 až -2,3 mV/K a nezávisí na hodnotě měřícího proudu",
+    "2 až 2,3 mV/K a nezávisí na hodnotě měřícího proudu",
+    "-2 až -2,3 mV/K a závisí na hodnotě měřícího proudu"
+   ],
+   "correct_answer": "-2 až -2,3 mV/K a závisí na hodnotě měřícího proudu."
+  },
+  {
+   "question": "Optický vláknový gyroskop",
+   "answers": [
+    "měří úhlovou rychlost na základě změny intenzity modulovaného světla v optickém vlákně",
+    "měří úhlovou rychlost na základě sčítání rychlosti světla a obvodové rychlosti otáčivého pohybu světlovodu",
+    "Měří zrychlení na základě interference odraženého světla v optickém vlákně",
+    "měří úhlové zrychlení na základě interference v v optickém vlákně"
+   ],
+   "correct_answer": "měří úhlovou rychlost na základě sčítání rychlosti světla a obvodové rychlosti otáčivého pohybu světlovodu."
+  },
+  {
+   "question": "Elektrodynamický senzor s pohyblivou cívkou",
+   "answers": [
+    "Jeho výstup je úměrný rychlosti cívky v homogenním magnetickém poli",
+    "Jeho výstup je úměrný zrychlení cívky",
+    "Jeho výstup je úměrný zrychlení cívky ve vzduchové mezeře magnetického obvodu",
+    "Jeho výstup je úměrný poloze pohyblivé cívky vůči cívce budicí"
+   ],
+   "correct_answer": "Jeho výstup je úměrný rychlosti cívky v homogenním magnetickém poli."
+  }
+ ],
+ "testD": [
+  {
+   "question": "tenzometrická rozeta na membráně",
+   "answers": [
+    "skládá se ze 4 tenzometrů, každá dvojice je umístěná na jedné straně membrány",
+    "slouží pro měření kroutícího momentu",
+    "skládá se ze 2 tenzometrů pro teplotní kompenzaci",
+    "skládá se ze 4 tenzometrů, na kraji měří radiální složku mechanického napětí, uprostřed tangenciální složku"
+   ],
+   "correct_answer": "skládá se ze 4 tenzometrů, na kraji měří radiální složku mechanického napětí, uprostřed tangenciální složku."
+  },
+  {
+   "question": "co NENÍ výhodou nábojového zesilovače",
+   "answers": [
+    "Jeho výstup má nízkou impedanci",
+    "Jeho výstup není závislý na permitivitě senzoru, která může být teplotně závislá",
+    "Jeho výstup není závislý na kapacitě kabelu",
+    "Zlepšuje linearitu senzoru"
+   ],
+   "correct_answer": "Zlepšuje linearitu senzoru."
+  },
+  {
+   "question": "Kapacitní hladinoměr je založený na jednom z následujících principů:",
+   "answers": [
+    "ztrátový činitel je přímo úměrný výšce hladiny",
+    "kapacita je přímo úměrná výšce hladiny",
+    "kapacita je nepřímo úměrná výšce hladiny",
+    "ztrátový činitel je nepřímo úměrný výšce hladiny"
+   ],
+   "correct_answer": "kapacita je přímo úměrná výšce hladiny."
+  },
+  {
+   "question": "Nevýhodou turbínkového průtokoměru je",
+   "answers": [
+    "Kvadratická charakteristika",
+    "Mrtvé pásmo pro nízké průtoky",
+    "Neobsahuje pohyblivé součásti",
+    "Může se použít pouze pro vodivé kapaliny"
+   ],
+   "correct_answer": "Mrtvé pásmo pro nízké průtoky."
+  },
+  {
+   "question": "pro chemický senzor s SAW NEPLATÍ",
+   "answers": [
+    "jsou založeny na zvýšení útlumu SAW filtru vlivem molekul adsorbovaných na citlivou vrstvu",
+    "často bývají zapojovány do zpětnovazebního oscilátoru",
+    "využívají referenčního senzoru bez citlivé vrstvy k teplotní kompenzaci",
+    "molekuly zachycené na povrchu změní rychlost šíření povrchové akustické vlny"
+   ],
+   "correct_answer": "jsou založeny na zvýšení útlumu SAW filtru vlivem molekul adsorbovaných na citlivou vrstvu ."
+  },
+  {
+   "question": "Pro přesné měření s úhrnným radiačním pyrometrem je důležité správné nastavení emisivity:",
+   "answers": [
+    "Definuje schopnost materiálu akumulovat teplo",
+    "Udává, jak dobře je daný objekt vodivý pro infračervené záření",
+    "Je to vlastnost povrchu daného materiálu",
+    "Typicky nabývá hodnot 0 až e^2"
+   ],
+   "correct_answer": "Je to vlastnost povrchu daného materiálu."
+  },
+  {
+   "question": "Co NEPLATÍ pro piezorezistivní senzor tlaku",
+   "answers": [
+    "Je založen na tenzometrickém můstku na membráně",
+    "Je schopen měřit statický tlak",
+    "často je vyráběn mikroelektronickými technologiemi",
+    "výstupem je změna kapacity",
+    "POužitím čtyř tenzometrů se potlačuje teplotní závislost"
+   ],
+   "correct_answer": "výstupem je změna kapacity."
+  },
+  {
+   "question": "Paramagnetický senzor kyslíku",
+   "answers": [
+    "Kyslík má relativní permeabilitu větší než 1, je proto vtahován do magnetického pole",
+    "Kyslík má relativní permitivitu větší než 1, je proto vtahován do elektrostatického pole mezi elektrodami",
+    "Kyslík má relativní permitivitu větší než 1, je proto vypuzován z magnetického pole",
+    "Kyslík má relativní permeabilitu větší než 1, je proto vtahován do elektrostatického pole mezi elektrodami"
+   ],
+   "correct_answer": "Kyslík má relativní permeabilitu větší než 1, je proto vtahován do magnetického pole."
+  },
+  {
+   "question": "který senzor nelze použít pro měření statické síly?",
+   "answers": [
+    "rezonanční",
+    "piezoelektrický",
+    "tenzometrický",
+    "magnetoelastický"
+   ],
+   "correct_answer": "piezoelektrický."
+  },
+  {
+   "question": "Jak se znění absolutní vlhkost při zvýšení teploty v uzavřené místnosti?",
+   "answers": [
+    "absolutní vlhkost se zvýší a relativní vlhkost se nezmění",
+    "absolutní vlhkost se zvýší a relativní vlhkost se sníží",
+    "absolutní vlhkost se nezmění a relativní vlhkost se sníží absolutní vlhkost se nezmění a relativní vlhkost se zvýší",
+    "absolutní vlhkost se sníží a relativní vlhkost se zvýší"
+   ],
+   "correct_answer": "absolutní vlhkost se nezmění a relativní vlhkost se sníží."
+  },
+  {
+   "question": "Hmotový spektrometr",
+   "answers": [
+    "Je založen na zakřivení dráhy molekuly vlivem kolmého magnetického pole. Toto zakřivení je úměrné druhé mocnině hmotnosti molekuly.",
+    "Je založen na zakřivení dráhy molekuly vlivem kolmého magnetického pole. Toto zakřivení je úměrné hmotnosti molekuly.",
+    "Je založen na měření doby letu molekuly urychlené v magnetickém poli. Tato doba je úměrná hmotnosti molekuly.",
+    "Je založen na měření doby letu molekuly urychlené v magnetickém poli. Tato doba je úměrná odmocnině z hmotnosti molekuly."
+   ],
+   "correct_answer": "Je založen na zakřivení dráhy molekuly vlivem kolmého magnetického pole. Toto zakřivení je úměrné hmotnosti molekuly.."
+  },
+  {
+   "question": "Plováčkový průtokoměr",
+   "answers": [
+    "Existuje v provedení s rovnou a zahnutou trubicí",
+    "Trubice se musí rozšiřovat směrem nahoru",
+    "Jeho výstup není závislý na hustotě kapaliny",
+    "Měří hmotnostní průtok"
+   ],
+   "correct_answer": "Trubice se musí rozšiřovat směrem nahoru."
+  },
+  {
+   "question": "Indukční průtokoměr",
+   "answers": [
+    "Výstupem je indukované napětí, jehož velikost je úměrná rychlosti vodivé kapaliny, kolmému magnetickému poli a vzdáleností elektrod",
+    "Výstupem je indukované napětí, jehož velikost je úměrná rychlosti a nezávisí na vzdálenosti elektrod",
+    "Výstupem je intenzita indukovaného magnetického pole",
+    "Výstupem je indukované napětí, jehož velikost je úměrná rychlosti, kolmému magnetickému poli a elektrické vodivosti"
+   ],
+   "correct_answer": "Výstupem je indukované napětí, jehož velikost je úměrná rychlosti vodivé kapaliny, kolmému magnetickému poli a vzdáleností elektrod ."
+  },
+  {
+   "question": "Pro senzory konduktivity NEPLATÍ",
+   "answers": [
+    "Pro malé koncentrace je závislost konduktivity na koncentraci lineární",
+    "Používají stejnosměrný měřicí proud",
+    "Samotné vyhodnotí pouze koncentraci známé látky v roztoku",
+    "V širkokém rozsahu koncentrací může být jejich výstup dvojznačný"
+   ],
+   "correct_answer": "Používají stejnosměrný měřicí proud ."
+  },
+  {
+   "question": "Dynamický tlak",
+   "answers": [
+    "Závisí na rychlosti proudění",
+    "závisí na zrychlení",
+    "Závisí na odmocnině rychlosti",
+    "Závisí na kvadrátu rychlosti proudění"
+   ],
+   "correct_answer": "Závisí na kvadrátu rychlosti proudění."
+  },
+  {
+   "question": "bezkontaktní senzor vodivosti",
+   "answers": [
+    "se napájí ze zdroje napětí a na výstupu musí být malý odpor",
+    "se napájí ze zdroje proudu a na výstupu musí být malý odpor",
+    "se napájí ze zdroje proudu a na výstupu musí být malý odpor",
+    "se napájí ze zdroje proudu a na výstupu musí být velký odpor"
+   ],
+   "correct_answer": "se napájí ze zdroje napětí a na výstupu musí být malý odpor."
+  },
+  {
+   "question": "Nejrozšířenější senzor v moderních termokamerách",
+   "answers": [
+    "ultrazvukový senzor",
+    "bolometrický senzor termočlánkový senzor",
+    "PIR",
+    "PYR"
+   ],
+   "correct_answer": "bolometrický senzor."
+  },
+  {
+   "question": "Ultrazvukový dopplerovský průtokoměr",
+   "answers": [
+    "Jeho přesnost může snížit přítomnost znečištení",
+    "Nelze použít pro nevodivé kapaliny",
+    "montuje se kolmo ke směru měřené rychlosti",
+    "nefunguje pro čiré kapaliny bez bublinek"
+   ],
+   "correct_answer": "nefunguje pro čiré kapaliny bez bublinek."
+  },
+  {
+   "question": "radarové hladinoměry",
+   "answers": [
+    "Pracují v kontinuálním režimu a vzdálenost senzoru od hladiny je úměrná intenzitě odraženého signálu",
+    "Pracují v pulsním režimu a vzdálenost senzoru od hladiny je úměrná době šíření impulsu",
+    "Pracují v pulsním režimu a vzdálenost senzoru od hladiny je nepřímo úměrná době šíření impulsu",
+    "pracují v kontinuálním režimu, frekvence je modulována pilou a vzdálenost senzoru od hladiny je úměrná rozdílu vysílané a přijímané frekvence"
+   ],
+   "correct_answer": "pracují v kontinuálním režimu, frekvence je modulována pilou a vzdálenost senzoru od hladiny je úměrná rozdílu vysílané a přijímané frekvence."
+  },
+  {
+   "question": "Coriolisův průtokoměr",
+   "answers": [
+    "Měří rychlostní průtok kapaliny",
+    "Měří hmotnostní průtok kapaliny v kmitající trubici",
+    "Měří objemový průtok kapaliny",
+    "Měří hmotnostní průtok kapaliny v otáčející se trubici"
+   ],
+   "correct_answer": "Měří hmotnostní průtok kapaliny v kmitající trubici."
+  },
+  {
+   "question": "Jaké předměty detekuje PIR detektor",
+   "answers": [
+    "Objekty s permitivitou vyšší než 1",
+    "S teplotou odlišnou od okolí a musí se pohybovat",
+    "Veškeré pohyblivé objekty",
+    "Feromagnetické objekty"
+   ],
+   "correct_answer": "S teplotou odlišnou od okolí a musí se pohybovat."
+  },
+  {
+   "question": "Ultrazvukový pulsní průtokoměr",
+   "answers": [
+    "Je založen na principu skládání skládání rychlosti měřeného media a rychlosti šíření ultrazvuku",
+    "Teplotní závislost se kompenzuje měřením při dvou frekvencích pulzů",
+    "montuje se kolmo ne směr proudění",
+    "Je založen na Dopplerově principu"
+   ],
+   "correct_answer": "Je založen na principu skládání skládání rychlosti měřeného media a rychlosti šíření ultrazvuku ."
+  },
+  {
+   "question": "Stefan-Boltzmannův zákon se uplatňuje při bezkontaktním měření teploty, udává že:",
+   "answers": [
+    "vlnová délka záření je konstantní, při změně teploty se mění pouze intenzita vyzařování",
+    "vlnová délka záření, kde je vyzařováno maximum energie, je úměrná druhé mocnině termodynamické teploty",
+    "intezita vyzařování je úměrná čtvrté mocnině termodynamické teploty",
+    "intezita vyzařování je úměrná druhé mocnině termodynamické teploty"
+   ],
+   "correct_answer": "intezita vyzařování je úměrná čtvrté mocnině termodynamické teploty."
+  }
+ ]
+}
