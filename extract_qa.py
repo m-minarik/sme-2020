@@ -11,7 +11,8 @@ Extracts questions, all answers and the correct answer from downloaded
 html files and saves them to 'test.questions.json'
 """
 
-input_files = {"testA": "tests/TestA_review.html",
+input_files = {"test0": "tests/Test0_review.html",
+               "testA": "tests/TestA_review.html",
                "testB": "tests/TestB_review.html",
                "testC": "tests/TestC_review.html",
                "testD": "tests/TestD_review.html"}

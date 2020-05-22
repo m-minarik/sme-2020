@@ -5,7 +5,8 @@ import random
 
 
 # Choose which tests to include
-from_tests = {"testA": True,
+from_tests = {"test0": True,
+              "testA": True,
               "testB": True,
               "testC": True,
               "testD": True}

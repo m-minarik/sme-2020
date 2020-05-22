@@ -1,4 +1,258 @@
 {
+ "test0": [
+   {
+    "question": "Optoelektronické senzory polohy s prostorovým kódem používají kódování pomocí Grayova kódu. Jaká je hlavní výhoda tohoto uspořádání?",
+    "answers": [
+     "Grayův kód umožňuje čtení i jinými způsoby, než jen opticky",
+     "Hazard způsobuje jen malou chybu v určení absolutní polohy",
+     "Toto uspořádání je levnější než optický inkrementální snímač polohy",
+     "Rychlejší dekodování"
+    ],
+    "correct_answer": "Hazard způsobuje jen malou chybu v určení absolutní polohy."
+   },
+   {
+    "question": "Měronosnou veličinou UVNITŘ STRUKTURY optického snímače typu CCD je",
+    "answers": [
+     "elektrický náboj",
+     "kapacita",
+     "frekvence",
+     "elektrický odpor"
+    ],
+    "correct_answer": "elektrický náboj."
+   },
+   {
+    "question": "Základním elementem CCD snímače je",
+    "answers": [
+     "resistor realizovaný technologií MOS",
+     "memristor",
+     "kapacitor realizovaný technologií MOS",
+     "tranzistor realizovaný technologií MOS"
+    ],
+    "correct_answer": "kapacitor realizovaný technologií MOS."
+   },
+   {
+    "question": "Indukčnostní senzory s proměnnou vzduchovou mezerou",
+    "answers": [
+     "lze používat pouze v diferenčním zapojení",
+     "indukčnost je nepřímo úměrná délce vzduchové mezery",
+     "indukčnost je úměrná délce vzduchové mezery",
+     "nelze používat v můstkovém zapojení"
+    ],
+    "correct_answer": "indukčnost je nepřímo úměrná délce vzduchové mezery."
+   },
+   {
+    "question": "Indukčnostní senzory, pracující na principu vířivých proudů, se obvykle NEPOUŽÍVAJÍ pro:",
+    "answers": [
+     "Detekci trhlin v materiálu.",
+     "Detekci osob v chráněném prostoru",
+     "Měření tloušťky galvanických povlaků",
+     "Detekci koncových poloh pohyblivých částí strojů"
+    ],
+    "correct_answer": "Detekci osob v chráněném prostoru."
+   },
+   {
+    "question": "Induktosyn:",
+    "answers": [
+     "Žádná z výše uvedených odpovědí není správná",
+     "Je transformátorový indukčnostní senzor, sloužící jako absolutní senzor polohy pro snímání vzdáleností v řádu několika desítek metrů",
+     "Pracuje na principu změn vířivých proudů vznikajících ve vodivém měřítku při napájení jezdce harmonickým proudem.",
+     "Výstupní napětí jezdce při napájení do měřítka je závislé na vzájemné indukčnosti mezi tímto jezdcem a měřítkem"
+    ],
+    "correct_answer": "Výstupní napětí jezdce při napájení do měřítka je závislé na vzájemné indukčnosti mezi tímto jezdcem a měřítkem."
+   },
+   {
+    "question": "Který z následujících optických senzorů má největší rozlišení?",
+    "answers": [
+     "Inkrementální senzor",
+     "PSD senzor",
+     "CCD senzor",
+     "Senzor založený na interferometrickém principu"
+    ],
+    "correct_answer": "Senzor založený na interferometrickém principu."
+   },
+   {
+    "question": "pro snímač LVDT platí",
+    "answers": [
+     "vyžaduje permanentní magnet",
+     "jedná se o senzor s ¨pevným magnetickým obvodem",
+     "je založen na principu vířivých proudů",
+     "pro určení směru výchylky je třeba znát fázi výstupního napětí"
+    ],
+    "correct_answer": "pro určení směru výchylky je třeba znát fázi výstupního napětí."
+   },
+   {
+    "question": "Metoda zpětnovazebního senzoru",
+    "answers": [
+     "zvyšuje rozlišení senzoru",
+     "potlačuje chybu nuly",
+     "potlačuje nelinearitu senzoru",
+     "potlačuje termoelektrická napětí",
+     "se používá pro snížení spotřeby elektrické energie senzoru"
+    ],
+    "correct_answer": "potlačuje nelinearitu senzoru."
+   },
+   {
+    "question": "Odporový snímač polohy v potenciometrickém zapojení má lineární převodní charakteristiku",
+    "answers": [
+     "při napájení ze zdroje napětí a to i při zatíženém výstupu",
+     "pro lineární průběh odporu dráhy pouze při nezatíženém výstupu",
+     "pro lineární průběh odporu dráhy i při zatíženém výstupu",
+     "při napájení ze zdroje proudu a to i při zatíženém výstupu"
+    ],
+    "correct_answer": "pro lineární průběh odporu dráhy pouze při nezatíženém výstupu."
+   },
+   {
+    "question": "Odporové snímače se čtyřvodičovým připojením se často napájejí ze zdroje proudu. Hlavním důvodem k tomu je:",
+    "answers": [
+     "potlačení vlivu změn rezistivity dráhy",
+     "potlačení vlivu přechodového odporu mezi jezdcem a dráhou",
+     "potlačení vlivu změn odporu přívodů",
+     "potlačení vlivu termonapětí"
+    ],
+    "correct_answer": "potlačení vlivu změn odporu přívodů."
+   },
+   {
+    "question": "Vhodným uspořádáním čtyř tenzometrů do tenzometrického můstku se dociluje",
+    "answers": [
+     "potlačení vlivu rušivých elektrických signálů",
+     "potlačení vlivu teploty",
+     "potlačení vlivu mechanického napětí",
+     "potlačení vlivu odporu přívodů"
+    ],
+    "correct_answer": "potlačení vlivu teploty."
+   },
+   {
+    "question": "Odporové snímače polohy se používají v zapojení jako potenciometr, nikoli jako reostat. Hlavním důvodem k tomu je:",
+    "answers": [
+     "potlačení vlivu změn rezistivity odporové dráhy",
+     "potlačení vlivu změn odporu přívodů",
+     "potlačení vlivu přechodového odporu mezi jezdcem a dráhou",
+     "potlačení vlivu odskakování jezdce"
+    ],
+    "correct_answer": "potlačení vlivu změn rezistivity odporové dráhy."
+   },
+   {
+    "question": "Podstatou polohově citlivého optického senzoru (PSD) je",
+    "answers": [
+     "Tato volba byla zrušena poté, co byl zahájen pokus.",
+     "velkoplošná Schottkyho dioda",
+     "velkoplošná PIN dioda",
+     "velkoplošná Gunnova dioda",
+     "velkoplošná Zenerova dioda"
+    ],
+    "correct_answer": "velkoplošná PIN dioda."
+   },
+   {
+    "question": "Jaké předměty detekuje PIR detektor",
+    "answers": [
+     "S teplotou odlišnou od okolí a musí se pohybovat",
+     "Veškeré pohyblivé objekty",
+     "Objekty s permitivitou vyšší než 1",
+     "Feromagnetické objekty"
+    ],
+    "correct_answer": "S teplotou odlišnou od okolí a musí se pohybovat."
+   },
+   {
+    "question": "Magnetický odpor Rm (reálná složka magnetické reluktance) uzavřeného magnetického obvodu NEZÁVISÍ na",
+    "answers": [
+     "permitivitě železa",
+     "průřezu magnetického obvodu",
+     "délce vzduchové mezery",
+     "permeabilitě želaza"
+    ],
+    "correct_answer": "permitivitě železa."
+   },
+   {
+    "question": "V čem se mimo jiné liší řízený a neřízený usměrňovač?",
+    "answers": [
+     "řízený usměrňovač není citlivý na násobky spínacího kmitočtu",
+     "neřízený usměrňovač není citlivý na násobky spínacího kmitočtu",
+     "Výstupní signál je u řízeného usměrňovače nezávislý na rozdílu fáze řídícího a vstupního signálu",
+     "Výstupní signál je u řízeného usměrňovače závislý na rozdílu fáze řídícího a vstupního signálu"
+    ],
+    "correct_answer": "Výstupní signál je u řízeného usměrňovače závislý na rozdílu fáze řídícího a vstupního signálu."
+   },
+   {
+    "question": "který z uvedených principů senzoru polohy umožňuje dosáhnout nejvyššího rozlišení?",
+    "answers": [
+     "LVDT",
+     "kapacitní",
+     "PSD optický",
+     "inkrementální optický"
+    ],
+    "correct_answer": "kapacitní."
+   },
+   {
+    "question": "Jakým způsobem zvýšíte rozlišovací schopnost inkrementálního optického senzoru polohy?",
+    "answers": [
+     "interpolací signálu optických detektorů",
+     "použitím modulovaného světelného toku",
+     "použitím synchronního detektoru",
+     "zvýšením optického výkonu diody"
+    ],
+    "correct_answer": "interpolací signálu optických detektorů."
+   },
+   {
+    "question": "Senzory na principu vířivých proudů",
+    "answers": [
+     "nejsou citlivé na změnu permeability snímaného materiálu",
+     "používají se pouze pro měření vzdálenosti feromagnetických předmětů",
+     "fungují pro všechny vodivé materiály",
+     "hloubka vniku je přímo úměrná pracovní frekvenci"
+    ],
+    "correct_answer": "fungují pro všechny vodivé materiály."
+   },
+   {
+    "question": "Jakým způsobem rozeznáte směr pohybu inkrementálního optického senzoru polohy",
+    "answers": [
+     "Nelze rozpoznat",
+     "Spádová hrana indikuje pohyb vlevo a vzestupná znamená pohyb vpravo",
+     "Spádová hrana indikuje pohyb vpravo a vzestupná znamená pohyb vlevo",
+     "Přidáním další stopy či dalšího senzoru s geometrickým posunem výstupního signálu o 90°"
+    ],
+    "correct_answer": "Přidáním další stopy či dalšího senzoru s geometrickým posunem výstupního signálu o 90°."
+   },
+   {
+    "question": "Nejrozšířenější senzor v moderních termokamerách",
+    "answers": [
+     "ultrazvukový senzor",
+     "PYR",
+     "PIR",
+     "bolometrický senzor termočlánkový senzor"
+    ],
+    "correct_answer": "bolometrický senzor."
+   },
+   {
+    "question": "Synchronní detektor se chová jako",
+    "answers": [
+     "úzkopásmová zádrž na frekvenci řídícího kmitočtu",
+     "filtr typu horní propust vyššího řádu a řízený usměrňovač",
+     "neřízený usměrňovač",
+     "řízený usměrňovač a dolnofrekvenční propust"
+    ],
+    "correct_answer": "řízený usměrňovač a dolnofrekvenční propust."
+   },
+   {
+    "question": "Synchronní detektor spínačového typu",
+    "answers": [
+     "je citlivý pouze na spínací frekvenci",
+     "je citlivý na liché harmonické spínací frekvence",
+     "je citlivý na celé frekvenční spektrum s potlačením síťového kmitočtu a jeho násobků",
+     "je citlivý na sudé harmonické spínací frekvence"
+    ],
+    "correct_answer": "je citlivý na liché harmonické spínací frekvence."
+   },
+   {
+    "question": "Transformátorový senzor polohy typu LVDT je založen",
+    "answers": [
+     "na změně vlastní indukčnosti",
+     "na změně vzájemné indukčnosti",
+     "na změně permeability magnetického obvodu",
+     "na změně sycení jádra"
+    ],
+    "correct_answer": "na změně vzájemné indukčnosti."
+   }
+ ],
  "testA": [
   {
    "question": "Mějme sinusový průběh napětí a proudu o frekvenci 50 Hz, Umax=1,414 V, zátěž je ideální induktor s reaktancí 1 Ohm. Činný výkon na zátěži je:",
