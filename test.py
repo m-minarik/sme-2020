@@ -34,7 +34,7 @@ def print_correct_answer(q):
 
 
 def sme_test():
-    with open("test_questions.json", mode="r") as f:
+    with open("test_questions.json", mode="r", encoding="utf8") as f:
         extracted_qa = json.load(f)
 
     questions = []
